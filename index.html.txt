@@ -1,0 +1,89 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siya's Birthday</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio autoplay loop>
+  <source src="music.mp3" type="audio/mp3">
+</audio>
+
+<div class="stars"></div>
+
+<header class="hero">
+  <h1>HAPPIESTTTT BIRTHDAYYY SIYAAAA 🎂✨</h1>
+  <p>Some people are gifts from God… you are mine</p>
+
+  <nav>
+    <a href="#story">Our Story</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#songs">Songs</a>
+    <a href="#letter">Letter</a>
+    <a href="#surprise">Surprise</a>
+  </nav>
+</header>
+
+<section id="story">
+<h2>Our Story</h2>
+<p>
+3 years of friendship. From football near the goalpost,
+cycling in the basement after dinner, laughing endlessly,
+fighting sometimes, but growing stronger each time.
+Even online for 2 years, distance never mattered.
+You came when life was dark... and became sunshine.
+</p>
+</section>
+
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="gallery">
+<img src="img1.jpg">
+<img src="img2.jpg">
+<img src="img3.jpg">
+<img src="img4.jpg">
+</div>
+</section>
+
+<section id="songs">
+<h2>Songs For Siya 🎵</h2>
+<div class="song-list">
+<a href="https://youtu.be/yJYXItns2ik" target="_blank">Count On Me</a>
+<a href="https://youtu.be/5JLmXf1r6zY" target="_blank">I'll Be There</a>
+<a href="https://youtu.be/GxldQ9eX2wo" target="_blank">Until I Found You</a>
+<a href="https://youtu.be/tfL6Z6g3dYk" target="_blank">Those Eyes</a>
+<a href="https://youtu.be/8ofCZObsnOo" target="_blank">CO2</a>
+</div>
+</section>
+
+<section id="letter">
+<h2>Letter 💌</h2>
+<p>
+Thank you for every laugh, every memory,
+every moment you stayed.
+You mean more than words can explain.
+May this year give you all the happiness you deserve.
+</p>
+<p><b>Forever your bestfriend, Sivateja</b></p>
+</section>
+
+<section id="surprise">
+<h2>Surprise 🔐</h2>
+<input type="password" id="pass" placeholder="Enter Password">
+<button onclick="checkPass()">Unlock</button>
+
+<div id="hidden">
+<h3>You Unlocked Something Special 🎥</h3>
+<video controls width="80%">
+<source src="video.mp4" type="video/mp4">
+</video>
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
